@@ -19,6 +19,7 @@ export function Posts() {
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">title</th>
+                        <th scope="col"> Edit/ Remove </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -45,12 +46,16 @@ export function Posts() {
 //     );
 // }
 
-export function Post({post}) {
+export function Post({ post }) {
     return (
         <Fragment>
             <tr>
                 <th scope="row">{post.id}</th>
                 <td>{post.title}</td>
+                <td>
+                    <button> Edit </button>
+                    <button > Remove </button>
+                </td>
             </tr>
         </Fragment>
     );
@@ -59,7 +64,7 @@ export function Post({post}) {
 export function Header(post) {
     return (
         <Fragment>
-             <h1> Header </h1>
+            <h1> Header </h1>
         </Fragment>
     );
 }
