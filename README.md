@@ -12,3 +12,13 @@ You will also see any lint errors in the console.
 
 Before running this command install "json-server" npm package globally.
 db.json is will workin as API.
+
+### Images
+
+Basic
+<img src="1.png" />
+Create Post
+<img src="2.png" />
+Edit Post
+<img src="3.png" />
+
